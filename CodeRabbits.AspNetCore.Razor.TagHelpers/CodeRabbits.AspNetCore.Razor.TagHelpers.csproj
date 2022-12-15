@@ -5,7 +5,6 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RepositoryUrl>https://github.com/code-rabbits-team/CodeRabbits.TagHelpers</RepositoryUrl>
-        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <OutputType>Library</OutputType>
@@ -13,9 +12,10 @@
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(StrongNameKeyFile)' != ''">
-        <AssemblyOriginatorKeyFile>$(StrongNameKeyFile)</AssemblyOriginatorKeyFile>
         <SignAssembly>True</SignAssembly>
-        <PublicSign Condition="'$(OS)' != 'Windows_NT'">True</PublicSign>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <IsPackable>True</IsPackable>
+        <AssemblyOriginatorKeyFile>$(StrongNameKeyFile)</AssemblyOriginatorKeyFile>
     </PropertyGroup>
 
     <ItemGroup>
