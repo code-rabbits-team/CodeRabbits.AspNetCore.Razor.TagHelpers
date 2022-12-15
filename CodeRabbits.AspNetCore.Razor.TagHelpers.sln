@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Razor.TagHelpers", "CodeRabbits.AspNetCore.Razor.TagHelpers\CodeRabbits.AspNetCore.Razor.TagHelpers.csproj", "{59591E6E-F22E-49E8-BBF2-1029DF84B3A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRabbits.AspNetCore.Razor.TagHelpers.Test", "CodeRabbits.AspNetCore.Razor.TagHelpers.Test\CodeRabbits.AspNetCore.Razor.TagHelpers.Test.csproj", "{23B23D06-14FC-4AC1-ABC2-45D28DFC9A5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59591E6E-F22E-49E8-BBF2-1029DF84B3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59591E6E-F22E-49E8-BBF2-1029DF84B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59591E6E-F22E-49E8-BBF2-1029DF84B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59591E6E-F22E-49E8-BBF2-1029DF84B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B23D06-14FC-4AC1-ABC2-45D28DFC9A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B23D06-14FC-4AC1-ABC2-45D28DFC9A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B23D06-14FC-4AC1-ABC2-45D28DFC9A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B23D06-14FC-4AC1-ABC2-45D28DFC9A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2155E90-0A79-4490-8EE5-C511CBEAA7E0}
+	EndGlobalSection
+EndGlobal

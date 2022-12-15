@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RepositoryUrl>https://github.com/code-rabbits-team/CodeRabbits.TagHelpers</RepositoryUrl>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <OutputType>Library</OutputType>
+        <VersionPrefix>0.0.1</VersionPrefix>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(StrongNameKeyFile)' != ''">
+        <AssemblyOriginatorKeyFile>$(StrongNameKeyFile)</AssemblyOriginatorKeyFile>
+        <SignAssembly>True</SignAssembly>
+        <PublicSign Condition="'$(OS)' != 'Windows_NT'">True</PublicSign>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+</Project>
