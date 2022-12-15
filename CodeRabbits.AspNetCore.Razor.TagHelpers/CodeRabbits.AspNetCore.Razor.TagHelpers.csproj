@@ -4,7 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RepositoryUrl>https://github.com/code-rabbits-team/CodeRabbits.TagHelpers</RepositoryUrl>
+        <RepositoryUrl>https://github.com/code-rabbits-team/CodeRabbits.AspNetCore.Razor.TagHelpers</RepositoryUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <OutputType>Library</OutputType>
